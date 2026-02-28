@@ -239,4 +239,31 @@ ul li a:hover {
     border-bottom: solid 5px #780a0a;
 }
 
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
+.main-container {
+    margin-top: 100px;
+}
+
+.nav-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 25px;
+    background-color: #005daa;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.05);
+    background-color: #004080;
+}
